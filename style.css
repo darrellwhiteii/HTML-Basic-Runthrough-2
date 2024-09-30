@@ -2,7 +2,6 @@
 
 * {
     box-sizing: border-box;
-    color: red;
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
@@ -17,6 +16,42 @@ nav {
     background-color: #cafdff;
 }
 
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 44px;
+
+}
+
+.subheader {
+    font-size: 24px;
+    margin: 16px 0 24px 0;
+}
+
+button {
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
 a {
     color: black;
     font-size: 24px;
@@ -24,6 +59,10 @@ a {
 }
 
 .Logo {
+    width: 300px;
+}
+
+.Logo2 {
     width: 300px;
 }
 
